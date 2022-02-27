@@ -53,7 +53,6 @@ export default class Myapp extends Component {
     return (
       <View style={styles.MainContainer}>
         <FormSend />
-        <Text>{`API host is " ${API_HOST1}"`}</Text>
         {this.state.isVisible === true ? Splash_Screen : null}
       </View>
     );
